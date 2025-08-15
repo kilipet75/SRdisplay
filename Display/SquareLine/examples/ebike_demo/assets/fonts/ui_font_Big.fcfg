@@ -1,0 +1,16 @@
+{
+  "codename": "Big",
+  "ttf_path": "/assets/fonts/Montserrat-Italic.ttf",
+  "bin_path": "/assets/fonts\\ui_font_Big.bin",
+  "c_path": "/assets/fonts\\ui_font_Big.c",
+  "cfg_path": "/assets/fonts\\ui_font_Big.fcfg",
+  "size": 18,
+  "bpp": 4,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

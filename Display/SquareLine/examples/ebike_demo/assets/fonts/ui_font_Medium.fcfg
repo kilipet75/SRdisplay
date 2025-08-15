@@ -1,0 +1,16 @@
+{
+  "codename": "Medium",
+  "ttf_path": "/assets/fonts/Montserrat-MediumItalic.ttf",
+  "bin_path": "/assets/fonts\\ui_font_Medium.bin",
+  "c_path": "/assets/fonts\\ui_font_Medium.c",
+  "cfg_path": "/assets/fonts\\ui_font_Medium.fcfg",
+  "size": 15,
+  "bpp": 4,
+  "letters": 3,
+  "ranges": [
+    "0x20-0xff"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

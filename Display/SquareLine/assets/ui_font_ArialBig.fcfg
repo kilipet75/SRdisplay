@@ -1,0 +1,16 @@
+{
+  "codename": "ArialBig",
+  "ttf_path": "/assets/arialbd.ttf",
+  "bin_path": "/assets\\ui_font_ArialBig.bin",
+  "c_path": "/assets\\ui_font_ArialBig.c",
+  "cfg_path": "/assets\\ui_font_ArialBig.fcfg",
+  "size": 130,
+  "bpp": 1,
+  "letters": 0,
+  "ranges": [
+    "0x20-0x7f"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

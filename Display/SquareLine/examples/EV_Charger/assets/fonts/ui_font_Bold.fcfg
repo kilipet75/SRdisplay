@@ -1,0 +1,16 @@
+{
+  "codename": "Bold",
+  "ttf_path": "/assets/fonts/Nexa Bold.otf",
+  "bin_path": "/assets/fonts\\ui_font_Bold.bin",
+  "c_path": "/assets/fonts\\ui_font_Bold.c",
+  "cfg_path": "/assets/fonts\\ui_font_Bold.fcfg",
+  "size": 26,
+  "bpp": 4,
+  "letters": 3,
+  "ranges": [
+    "0x20-0xff"
+  ],
+  "symbols": "",
+  "customparams": "--no-compress --no-prefilter",
+  "uploaded": false
+}

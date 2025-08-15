@@ -1,0 +1,135 @@
+{
+  "deftheme": {
+    "name": "Default",
+    "properties": [
+      {
+        "nid": 1001632,
+        "strtype": "THEME_COLOR",
+        "strval": "BackColor",
+        "intarray": [
+          255,
+          255,
+          255,
+          255
+        ],
+        "InheritedType": 0
+      },
+      {
+        "nid": 1001633,
+        "strtype": "THEME_COLOR",
+        "strval": "ForeColor",
+        "intarray": [
+          0,
+          0,
+          0,
+          255
+        ],
+        "InheritedType": 0
+      },
+      {
+        "nid": 1001698,
+        "strtype": "THEME_COLOR",
+        "strval": "BackScale",
+        "intarray": [
+          186,
+          183,
+          168,
+          255
+        ],
+        "InheritedType": 0
+      },
+      {
+        "nid": 1001699,
+        "strtype": "THEME_COLOR",
+        "strval": "FrontScale",
+        "intarray": [
+          113,
+          113,
+          113,
+          255
+        ],
+        "InheritedType": 0
+      },
+      {
+        "nid": 1001700,
+        "strtype": "THEME_COLOR",
+        "strval": "PanelColor",
+        "intarray": [
+          217,
+          217,
+          217,
+          255
+        ],
+        "InheritedType": 0
+      }
+    ]
+  },
+  "themes": [
+    {
+      "name": "DarkMode",
+      "properties": [
+        {
+          "nid": 1001632,
+          "strtype": "THEME_COLOR",
+          "strval": "BackColor",
+          "intarray": [
+            0,
+            0,
+            0,
+            255
+          ],
+          "InheritedType": 0
+        },
+        {
+          "nid": 1001633,
+          "strtype": "THEME_COLOR",
+          "strval": "ForeColor",
+          "intarray": [
+            255,
+            255,
+            255,
+            255
+          ],
+          "InheritedType": 0
+        },
+        {
+          "nid": 1001698,
+          "strtype": "THEME_COLOR",
+          "strval": "BackScale",
+          "intarray": [
+            222,
+            206,
+            115,
+            255
+          ],
+          "InheritedType": 0
+        },
+        {
+          "nid": 1001699,
+          "strtype": "THEME_COLOR",
+          "strval": "FrontScale",
+          "intarray": [
+            180,
+            137,
+            28,
+            255
+          ],
+          "InheritedType": 0
+        },
+        {
+          "nid": 1001700,
+          "strtype": "THEME_COLOR",
+          "strval": "PanelColor",
+          "intarray": [
+            11,
+            49,
+            5,
+            255
+          ],
+          "InheritedType": 0
+        }
+      ]
+    }
+  ],
+  "selected_theme": "Default"
+}

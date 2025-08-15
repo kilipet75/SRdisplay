@@ -1,0 +1,51 @@
+-- Existing sdkconfig 'C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/sdkconfig' renamed to 'C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/sdkconfig.old'.
+-- Found Git: C:/Espressif/tools/idf-git/2.39.2/cmd/git.exe (found version "2.39.2.windows.1")
+-- The C compiler identification is GNU 14.2.0
+-- The CXX compiler identification is GNU 14.2.0
+-- The ASM compiler identification is GNU
+-- Found assembler: C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe
+-- Detecting C compiler ABI info
+-- Detecting C compiler ABI info - done
+-- Check for working C compiler: C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-gcc.exe - skipped
+-- Detecting C compile features
+-- Detecting C compile features - done
+-- Detecting CXX compiler ABI info
+-- Detecting CXX compiler ABI info - done
+-- Check for working CXX compiler: C:/Espressif/tools/xtensa-esp-elf/esp-14.2.0_20241119/xtensa-esp-elf/bin/xtensa-esp32s3-elf-g++.exe - skipped
+-- Detecting CXX compile features
+-- Detecting CXX compile features - done
+-- git rev-parse returned 'fatal: not a git repository (or any of the parent directories): .git'
+-- Could not use 'git describe' to determine PROJECT_VER.
+-- Building ESP-IDF components for target esp32s3
+NOTICE: 
+Following dependencies have new versions available:
+Dependency "espressif/usb_host_cdc_acm": "2.0.6" -> "2.1.0"
+Consider running "idf.py update-dependencies" to update your lock file.
+NOTICE: Updating lock file at C:\Users\Kilian Peters\OneDrive\Projekte\SoC-Monitor Schwalbe\cdc_acm_host\cdc_acm_host\dependencies.lock
+NOTICE: Processing 2 dependencies:
+NOTICE: [1/2] espressif/usb_host_cdc_acm (2.0.6)
+NOTICE: [2/2] idf (5.4.0)
+-- Project sdkconfig file C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/sdkconfig
+-- Compiler supported targets: xtensa-esp-elf
+-- Found Python3: C:/Espressif/python_env/idf5.4_py3.11_env/Scripts/python.exe (found version "3.11.2") found components: Interpreter
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD
+-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success
+-- Found Threads: TRUE
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS
+-- Performing Test C_COMPILER_SUPPORTS_WFORMAT_SIGNEDNESS - Success
+-- App "cdc_acm_host" version: 1
+-- Adding linker script C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/build/esp-idf/esp_system/ld/memory.ld
+-- Adding linker script C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/build/esp-idf/esp_system/ld/sections.ld.in
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.api.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.bt_funcs.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.libgcc.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.wdt.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.version.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom/esp32s3/ld/esp32s3.rom.newlib.ld
+-- Adding linker script C:/Espressif/frameworks/esp-idf-v5.4/components/soc/esp32s3/ld/esp32s3.peripherals.ld
+-- Components: app_update bootloader bootloader_support cxx efuse esp_app_format esp_bootloader_format esp_common esp_driver_gpio esp_hw_support esp_mm esp_partition esp_pm esp_rom esp_security esp_system esp_timer espressif__usb_host_cdc_acm esptool_py freertos hal heap log main mbedtls newlib partition_table pthread soc spi_flash usb xtensa
+-- Component paths: C:/Espressif/frameworks/esp-idf-v5.4/components/app_update C:/Espressif/frameworks/esp-idf-v5.4/components/bootloader C:/Espressif/frameworks/esp-idf-v5.4/components/bootloader_support C:/Espressif/frameworks/esp-idf-v5.4/components/cxx C:/Espressif/frameworks/esp-idf-v5.4/components/efuse C:/Espressif/frameworks/esp-idf-v5.4/components/esp_app_format C:/Espressif/frameworks/esp-idf-v5.4/components/esp_bootloader_format C:/Espressif/frameworks/esp-idf-v5.4/components/esp_common C:/Espressif/frameworks/esp-idf-v5.4/components/esp_driver_gpio C:/Espressif/frameworks/esp-idf-v5.4/components/esp_hw_support C:/Espressif/frameworks/esp-idf-v5.4/components/esp_mm C:/Espressif/frameworks/esp-idf-v5.4/components/esp_partition C:/Espressif/frameworks/esp-idf-v5.4/components/esp_pm C:/Espressif/frameworks/esp-idf-v5.4/components/esp_rom C:/Espressif/frameworks/esp-idf-v5.4/components/esp_security C:/Espressif/frameworks/esp-idf-v5.4/components/esp_system C:/Espressif/frameworks/esp-idf-v5.4/components/esp_timer C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/managed_components/espressif__usb_host_cdc_acm C:/Espressif/frameworks/esp-idf-v5.4/components/esptool_py C:/Espressif/frameworks/esp-idf-v5.4/components/freertos C:/Espressif/frameworks/esp-idf-v5.4/components/hal C:/Espressif/frameworks/esp-idf-v5.4/components/heap C:/Espressif/frameworks/esp-idf-v5.4/components/log C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/main C:/Espressif/frameworks/esp-idf-v5.4/components/mbedtls C:/Espressif/frameworks/esp-idf-v5.4/components/newlib C:/Espressif/frameworks/esp-idf-v5.4/components/partition_table C:/Espressif/frameworks/esp-idf-v5.4/components/pthread C:/Espressif/frameworks/esp-idf-v5.4/components/soc C:/Espressif/frameworks/esp-idf-v5.4/components/spi_flash C:/Espressif/frameworks/esp-idf-v5.4/components/usb C:/Espressif/frameworks/esp-idf-v5.4/components/xtensa
+-- Configuring done (10.0s)
+-- Generating done (0.7s)
+-- Build files have been written to: C:/Users/Kilian Peters/OneDrive/Projekte/SoC-Monitor Schwalbe/cdc_acm_host/cdc_acm_host/build
