@@ -6,8 +6,8 @@ static SemaphoreHandle_t lvgl_mux = NULL;  //mutex semaphores
 #define LCD_HOST SPI2_HOST
 
 //#define EXAMPLE_Rotate_90
-#define AMOLED_143_V1
-//#define AMOLED_143_V2
+//#define AMOLED_143_V1
+#define AMOLED_143_V2
 
 
 static const sh8601_lcd_init_cmd_t lcd_init_cmds[] = {
