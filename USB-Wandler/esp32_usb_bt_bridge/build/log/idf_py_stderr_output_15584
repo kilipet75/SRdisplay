@@ -1,0 +1,1 @@
+Command: cmake -G Ninja -DPYTHON_DEPS_CHECKED=1 -DPYTHON=C:\Espressif\tools\python\v5.5.4\venv\Scripts\python.exe -DESP_PLATFORM=1 -DCCACHE_ENABLE=0 C:\Users\Kilian\OneDrive\Projekte\SoC-Monitor Schwalbe\esp32_usb_bt_bridge\esp32_usb_bt_bridge

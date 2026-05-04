@@ -17,20 +17,20 @@
 *.log
 
 # Build artifacts and directories
-**/build/
-build/
-*.o
-*.a
-*.out
-*.exe # For any host-side utilities compiled on Windows
+#**/build/
+#build/
+#*.o
+#*.a
+#*.out
+#*.exe # For any host-side utilities compiled on Windows
 
 # ESP-IDF specific build outputs
-*.bin
-*.elf
-*.map
-flasher_args.json # Generated in build directory
-sdkconfig.old
-sdkconfig
+#*.bin
+#*.elf
+#*.map
+#flasher_args.json # Generated in build directory
+#sdkconfig.old
+#sdkconfig
 
 # ESP-IDF dependencies
 # For older versions or manual component management
