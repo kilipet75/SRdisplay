@@ -1,0 +1,5 @@
+dependencies:
+  idf: ">=5.0.0"
+  
+  espressif/usb_host_cdc_acm:
+    version: "^2.0.0"
